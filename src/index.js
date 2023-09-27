@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+// import * as serviceWorker from "./serviceWorker";
 import { GithubProvider } from "./context/context";
 import { Auth0Provider } from "@auth0/auth0-react";
 // dev-he8peygbhod1fskg.us.auth0.com
@@ -21,4 +21,4 @@ root.render(
     </Auth0Provider>
 );
 
-serviceWorker.unregister();
+
